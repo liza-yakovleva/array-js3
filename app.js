@@ -9,10 +9,9 @@ for (let i = 0; i < arr.length; i++) {
     console.log(`Максимальне число ${searchNum} є в масиві`)
      break;
   }
-  else {
-    continue
+  else if (arr[i] != searchNum) {
+    console.log(`Числа ${searchNum} НЕ має в масиві`);
   }
-  console.log(`Числа ${searchNum} НЕ має в масиві`);
 }
 
 

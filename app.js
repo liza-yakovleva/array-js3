@@ -7,11 +7,13 @@ let arr = num.split(",")
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] == searchNum) {
     console.log(`Максимальне число ${searchNum} є в масиві`)
-    break;
+     break;
   }
   else {
-    console.log(`Числа ${searchNum} НЕ має в масиві`);
+    continue
   }
+  console.log(`Числа ${searchNum} НЕ має в масиві`);
 }
 
 
+   
